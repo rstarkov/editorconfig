@@ -283,6 +283,9 @@ dotnet_diagnostic.ca1837.severity = warning
 # CA1825: Avoid zero-length array allocations
 dotnet_diagnostic.ca1825.severity = none
 
+# CA1806: LINQ method without side-effect (eg .Append)
+dotnet_diagnostic.ca1806.severity = error
+
 # IDE0044: Add readonly modifier
 dotnet_diagnostic.ide0044.severity = none
 
@@ -291,6 +294,9 @@ dotnet_diagnostic.ide0042.severity = none
 
 # CS1998: Async method lacks 'await' operators and will run synchronously
 dotnet_diagnostic.cs1998.severity = none
+
+# CS8981: The type name 'info' only contains lower-cased ascii characters - we'll fix it if that happens
+dotnet_diagnostic.cs8981.severity = none
 
 # Rider: Possible 'null' assignment to non-nullable entity (triggers even in nullable:disable contexts)
 resharper_assign_null_to_not_null_attribute_highlighting = none
