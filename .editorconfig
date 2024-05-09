@@ -301,6 +301,9 @@ dotnet_diagnostic.cs8981.severity = none
 # CS8509: The switch expression does not handle all possible values of its input type (it is not exhaustive)
 dotnet_diagnostic.cs8509.severity = error
 
+# CS8524: The switch expression does not handle ... unnamed enum value -- this makes relying on CS8509 error impossible so turn it off
+dotnet_diagnostic.cs8524.severity = none
+
 # Rider: Possible 'null' assignment to non-nullable entity (triggers even in nullable:disable contexts)
 resharper_assign_null_to_not_null_attribute_highlighting = none
 
